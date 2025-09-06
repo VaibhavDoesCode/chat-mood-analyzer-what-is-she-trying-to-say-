@@ -1,4 +1,5 @@
-# chat-mood-analyzer-what-is-she-trying-to-say-
+# chat-mood-analyzer-what-is-she-trying-to-say
+
 📸 Streamlit app that extracts chat messages from screenshots using OCR, classifies emotions with HuggingFace, and generates a quick summary with reply suggestions.
 ## 🚀 Overview
 This project is a **Streamlit-based NLP + OCR application** that analyzes **chat screenshots** (WhatsApp / Telegram / SMS).  
