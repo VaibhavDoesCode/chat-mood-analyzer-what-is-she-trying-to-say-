@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-import easyocr
 from transformers import pipeline
 import pandas as pd
 import numpy as np
@@ -270,5 +269,6 @@ else:
             st.text_area("Full Text (for reference)", "\n".join(edited["text"].tolist()), height=200, disabled=True)
     else:
         st.info("Click 'Extract & Analyze Screenshot' to process the image first.")
+
 
 
